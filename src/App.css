@@ -1,0 +1,314 @@
+.nav{
+  display: flex;
+  width: 100%;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list{
+  display: flex;
+  gap: 4vw;
+  list-style: none;
+}
+
+
+
+.list button{
+  background-color: black;
+  color: white;
+  border-radius: 25px;
+ padding: 0 2vw;
+}
+
+.main{
+  display: flex;
+  width: 100%;
+  height: 25vw;
+  flex-wrap: wrap;
+  margin-top: 5%;
+}
+
+.main-left{
+  min-height: 25vw;
+  width: 40%;
+}
+
+.main-left h1{
+  font-size: 3vw;
+  
+}
+.main-left p{
+  font-size: 2vw;
+}
+.main-right{
+  height: 25vw;
+  width: 60%;
+}
+
+.main-right img{
+  width: 100%;
+  height: 110%;
+}
+
+.hero-logo{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3vw;
+  margin: 6.5vw 0;
+}
+
+.card {
+  width: 5%;
+  overflow: hidden;
+  transition: transform 0.2s;
+}
+
+.card-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.feature{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 40vw;
+  margin-top: 10vw;
+}
+.feature-left{
+  width: 60%; 
+  height: 100%;
+}
+
+.feature-left img{
+  width: 100%;
+  height: 100%;
+}
+.feature-right{
+  width: 40%;
+  height: 100%;
+}
+
+.feature-right h1{
+  font-size: 3vw;
+  margin-left: 5vw;
+}
+
+.feature-right p{
+  font-size: 2vw;
+  margin-left: 5vw;
+  margin-bottom: 2vw;
+}
+
+.feature-right button{
+  background-color: black;
+  border-radius: 30px;
+  width: 50%;
+  height: 3vw;
+  font-size: 1.2vw;
+  color: whitesmoke;
+  margin-left: 5vw;
+  
+}
+.vehicle-heading{
+  text-align: center;
+  margin-top: 3vw;
+}
+.vehicle-heading h1{
+  font-size: 4vw;
+  font-weight: 700;
+}
+
+.vehicle-heading p{
+  font-size: 1.3vw;
+  font-weight: 400;
+}
+
+.first-row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5vw;
+  padding: 20px;
+  
+}
+
+.row-1{
+  width: 22vw;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff;
+  transition: transform 0.2s;
+}
+
+.second-row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5vw;
+  padding: 20px;
+
+}
+
+.row-2{
+  width: 15vw;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff;
+  transition: transform 0.2s;
+}
+
+
+.row-2 img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.key-card{
+  display: flex;
+  gap: 4vw;
+  padding-top: 20px;
+  margin-top: 2vw;
+  margin-bottom: 5vw;
+  
+}
+.key{
+  width: 15vw;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff;
+  transition: transform 0.2s;
+  padding-right: 5vw;
+ 
+}
+
+.key-round1{
+  margin: 1.5vw;
+  background-color: rgb(210, 255, 232);
+  width: 2vw;
+  border-radius: 150px;
+  padding: 1vw;
+}
+.key-round2{
+  margin: 1.5vw;
+  background-color: rgb(250, 220, 224);
+  width: 2vw;
+  border-radius: 150px;
+  padding: 1vw;
+}
+.key-round3{
+  margin: 1.5vw;
+  background-color: rgb(225, 225, 255);
+  width: 2vw;
+  border-radius: 150px;
+  padding: 1vw;
+}
+.key-round4{
+  margin: 1.5vw;
+  background-color: rgb(233, 233, 233);
+  width: 2vw;
+  border-radius: 150px;
+  padding: 1vw;
+}
+
+.key p{
+  font-size: 2vw;
+  font-weight: 600;
+  margin:  2vw;
+  margin-top: 5vw;
+}
+
+.main-key{
+  width: 70%;
+  margin-top: 7vw;
+}
+
+.main-key h1{
+  font-size: 4vw;
+  font-weight: 700;
+}
+
+.main-key p{
+  font-size: 2vw;
+  margin-bottom: 5vw;
+}
+
+.black-contact{
+  background-color: black;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 1vw;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+}
+
+.black-contact button{
+  width: 20%;
+  padding: 0.5vw;
+  font-size: 1vw;
+  background-color: gray;
+  border-radius: 30px;
+  margin-top: 2vw;
+}
+
+.black-contact h1{
+  font-size: 3vw;
+}
+
+.black-contact p{
+  font-size: 1vw;
+}
+
+.white-contact{
+  display: flex;
+  width: 100%;
+  
+  margin-top: 8vw;
+}
+
+.terms{
+  display: flex;
+  width: 20%;
+  gap: 4vw;
+  align-items: last baseline;
+  margin: 1vw;
+  
+}
+
+.foot-nav{
+  
+  width: 50%;
+
+}
+
+
+.foot-nav ul li{
+  list-style: none;
+  margin: 2vw;
+}
+
+.Susbscribe{
+  width: 30%;
+ 
+}
+
+
+.formm{
+  background-color: rgb(212, 212, 212);
+  padding: 1vw;
+  border-radius: 10px;
+  width: 80%;
+}
+
+.Susbscribe h3{
+  margin-top: 3vw;
+}
